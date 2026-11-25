@@ -1,15 +1,14 @@
-# Project Mata Kuliah Keamanan Teknologi Informasi - B
-
-### Dosen Pengampu: Amir Murtako, S.Kom., M.Kom
----
-
-## WORKFLOW!! 
-1. *git clone* (Clone repo ke local)
-2. *git checkout -b NAMAKALIAN* (Membuat branch dengan nama sendiri)
-3. *git checkout branch_tujuan* (Pindah branch kalian atau kalo ke main repo berarti checkout main)
-4. *git add .* (Menambahkan semua file yang ingin di commit)
-5. *git add namafile* (Menambahkan file tertentu yang ingin di commit)
-6. *git commit -m "fiks"* (commit yang ingin dipush)
-7. *git push -u origin BRANCHKALIAN* (push ke BRANCH KALIAN, JANGAN KE MAIN!!)
-8. *git pull main* (Posisi branch main, pull dari main. PULL KETIKA SUDAH MERGE FINAL)
-9. *git merge main* (Posisi branch sendiri, merge dari main yang terupdate!)
+# KTI-B-KelompokOneDirection
+## Project Mata Kuliah Keamanan Teknologi Informasi - B (KTI)
+----
+Deskripsi Tugas
+> 
+- Membuat program berbasis CLI (Command Line Interface) menggunakan bahasa Python atau C++ yang mengimplementasikan kombinasi enkripsi dan pemeriksaan integritas data. 
+#### Fitur - fitur : 
+- Fitur 1 (Modul Enkripsi): 
+>Program menerima input pesan teks dan kunci rahasia dari pengguna, lalu mengenkripsinya (boleh menggunakan XOR Multi-Byte, AES via library, atau simulasi RSA). 
+>
+- Fitur 2 (Modul Integritas Hash):
+ > Program otomatis menghitung nilai hash (SHA-256) dari pesan asli sebelum dienkripsi dan menyimpannya sebagai metadata.
+- Fitur 3 (Modul Dekripsi & Validasi): 
+>Saat melakukan dekripsi, program mencocokkan kembali hash hasil dekripsi dengan hash awal untuk menampilkan status 'DATA VALID' atau 'DATA TELAH DIMODIFIKASI'.
