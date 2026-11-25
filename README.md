@@ -1,4 +1,4 @@
-# Project Mata Kuliah Keamanan Teknologi Informasi - B (KTI)
+# Project Mata Kuliah Keamanan Teknologi Informasi - B
 
 ### Dosen Pengampu: Amir Murtako, S.Kom., M.Kom
 ---
