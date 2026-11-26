@@ -1,4 +1,4 @@
-# CryptoVerify CLI - Aplikasi Enkripsi & Verifikasi Integritas Data
+# Cryptography App - Aplikasi Enkripsi & Verifikasi Integritas Data
 
 Aplikasi berbasis Command Line Interface (CLI) menggunakan Python 3.8+ (zero external dependencies) yang mengombinasikan **enkripsi XOR Multi-Byte (level byte UTF-8)** dan **verifikasi integritas data SHA-256**.
 
