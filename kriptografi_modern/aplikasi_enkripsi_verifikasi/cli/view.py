@@ -14,7 +14,7 @@ class CLIView:
         """Menampilkan header aplikasi dengan garis pemisah ASCII."""
         print()
         print(DOUBLE_LINE)
-        print("  CryptoVerify CLI - Aplikasi Enkripsi & Verifikasi Integritas Data")
+        print("  Cryptography App - Aplikasi Enkripsi & Verifikasi Integritas Data")
         print("  Algoritma: XOR Multi-Byte (UTF-8) + SHA-256 Integrity Check")
         print(DOUBLE_LINE)
 
@@ -227,5 +227,5 @@ class CLIView:
         """Menampilkan pesan keluar yang rapi."""
         print()
         print(DOUBLE_LINE)
-        print("  Terima kasih telah menggunakan CryptoVerify CLI. Program selesai.")
+        print("  Terima kasih telah menggunakan  Cryptography App. Program selesai.")
         print(DOUBLE_LINE)
